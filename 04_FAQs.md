@@ -26,7 +26,7 @@ Yes. Parking is available nearby at **P&R Maastricht Noord**, which is within ea
 ---
 
 ### What is the dress code?
-We kindly ask guests to dress in formal attire. Suits or equivalent formal wear are perfect. Evening dresses, cocktail dresses, or elegant jumpsuits are all welcome. Please note that casual wear (such as jeans, sneakers, or casual daywear) is not appropriate for this celebration. See the [What to expect page](/vibe/) for more information.
+Suits and ties required for men. Women are invited to wear midi or ankle-length dresses, elegant jumpsuits, or formal skirt/pant ensembles. Please no jeans, sneakers, or overly casual wear. See the [What to expect page](/vibe/) for more information.
 
 ---
 

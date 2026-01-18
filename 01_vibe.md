@@ -29,9 +29,9 @@ permalink: /vibe/
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Dress code - formal</h3>
+					<h3>Dress code - formal attire</h3>
 				</header>
-				<p>We kindly ask guests to dress in formal attire. Suits or equivalent formal wear are perfect. Evening dresses, cocktail dresses, or elegant jumpsuits are all welcome. Please note that casual wear (such as jeans, sneakers, or casual daywear) is not appropriate for this celebration.</p>
+				<p>Suits and ties required for men. Women are invited to wear midi or ankle-length dresses, elegant jumpsuits, or formal skirt/pant ensembles. Please no jeans, sneakers, or overly casual wear.</p>
 			</div>
 		</div>
 	</section>
