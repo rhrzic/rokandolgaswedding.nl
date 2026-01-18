@@ -29,7 +29,7 @@ permalink: /vibe/
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Dress code - cocktail</h3>
+					<h3>Dress code - formal</h3>
 				</header>
 				<p>We kindly ask guests to dress in formal attire. Suits or equivalent formal wear are perfect. Evening dresses, cocktail dresses, or elegant jumpsuits are all welcome. Please note that casual wear (such as jeans, sneakers, or casual daywear) is not appropriate for this celebration.</p>
 			</div>
