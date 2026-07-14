@@ -1,80 +1,509 @@
 ---
 ---
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+// =============================================================
+//  Rok & Olga — ink on paper
+//  Two colours: stationery burgundy on warm cream.
+// =============================================================
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+// --- Tokens --------------------------------------------------
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				grid: ( gutters: 1.5em )
-			),
-			small: (
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
+$cream:         #FBF5EC;
+$ink:           #93011D;
+$surface:       #FFFDF9;
+$hairline:      rgba(147, 1, 29, 0.22);
+$hairline-soft: rgba(147, 1, 29, 0.12);
+$wash:          rgba(147, 1, 29, 0.05);
 
-	@mixin inner {
-		> .inner {
-			@include padding(4em, 0);
-			margin: 0 auto;
-			max-width: _size(inner);
-			width: calc(100% - 6em);
+$display: 'Caveat Brush', 'Bradley Hand', cursive;
+$body:    'Karla', 'Helvetica Neue', Helvetica, sans-serif;
 
-			@include breakpoint(small) {
-				@include padding(3em, 0);
-				width: calc(100% - 3em);
-			}
-		}
+$measure: 34rem;   // comfortable reading width
+$page:    68rem;   // outer container
+
+$bp-md: 900px;
+$bp-sm: 640px;
+
+// --- Reset ---------------------------------------------------
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body, h1, h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+
+img, svg { max-width: 100%; }
+img { height: auto; display: block; }
+
+// --- Base ----------------------------------------------------
+
+body {
+	background: $cream;
+	color: $ink;
+	font-family: $body;
+	font-size: 1.0625rem;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .lettered {
+	font-family: $display;
+	font-weight: 400;
+	line-height: 1.1;
+	letter-spacing: 0.01em;
+}
+
+h1 { font-size: clamp(2.6rem, 6vw, 4.4rem); }
+h2 { font-size: clamp(2rem, 4vw, 2.9rem); }
+h3 { font-size: clamp(1.6rem, 3vw, 2.1rem); }
+
+h4 {
+	font-family: $body;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.75;
+}
+
+p { margin-bottom: 1.15em; }
+p:last-child { margin-bottom: 0; }
+
+strong, b { font-weight: 600; }
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid $hairline;
+	transition: border-color 0.15s ease;
+
+	&:hover, &:focus-visible {
+		border-bottom-color: $ink;
+	}
+}
+
+:focus-visible {
+	outline: 2px solid $ink;
+	outline-offset: 3px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid $hairline-soft;
+	margin: 3rem 0;
+}
+
+// --- Layout --------------------------------------------------
+
+.wrap {
+	max-width: $page;
+	margin: 0 auto;
+	padding: 0 1.75rem;
+}
+
+.prose {
+	max-width: $measure;
+	margin-inline: auto;   // stay centred on wide screens
+
+	h2, h3 { margin: 2.5rem 0 0.6rem; }
+	h2:first-child, h3:first-child { margin-top: 0; }
+	ul, ol { margin: 0 0 1.15em 1.25em; }
+	li { margin-bottom: 0.35em; }
+
+	// The venue page carries photos and a map, so it needs more room.
+	&--wide { max-width: 48rem; }
+}
+
+section { padding: 4.5rem 0; }
+
+// --- Art -----------------------------------------------------
+
+// The traced icons and the drawn ones have very different aspect ratios, so every
+// motif gets a fixed box and scales to fit inside it (SVG letterboxes by default).
+.art {
+	color: $ink;
+	display: block;
+	margin-inline: auto;
+	overflow: visible;
+}
+
+// A sparkle used as a section divider.
+.divider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	max-width: 22rem;
+	margin: 3.5rem auto;
+
+	&::before, &::after {
+		content: '';
+		flex: 1;
+		max-width: 7rem;
+		border-top: 1px solid $hairline-soft;
 	}
 
-// Base.
+	.art { width: 1.6rem; height: 1.6rem; flex: none; }
+}
 
-	@import 'base/page';
-	@import 'base/typography';
+// --- Site header ---------------------------------------------
+// Plain wrapping nav — no hamburger, no JS.
 
-// Component.
+.site-header {
+	border-bottom: 1px solid $hairline-soft;
 
-	@import 'components/section';
-	@import 'components/form';
-	@import 'components/box';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/table';
-	@import 'components/button';
-	@import 'components/tiles';
-	@import 'components/contact-method';
-	@import 'components/spotlights';
+	.wrap {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 0.75rem 2rem;
+		flex-wrap: wrap;
+		padding-top: 1.4rem;
+		padding-bottom: 1.4rem;
+	}
+}
 
-// Layout.
+.site-title {
+	font-family: $display;
+	font-size: 1.6rem;
+	line-height: 1;
+	border: 0;
 
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/contact';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
-	@import 'layout/menu';
+	&:hover { border: 0; }
+}
+
+.site-nav {
+	display: flex;
+	gap: 1.6rem;
+	flex-wrap: wrap;
+
+	a {
+		font-size: 0.95rem;
+		border-bottom: 1px solid transparent;
+
+		&:hover, &:focus-visible { border-bottom-color: $ink; }
+		&[aria-current="page"] { border-bottom-color: $ink; }
+	}
+}
+
+// --- Home hero -----------------------------------------------
+
+.hero {
+	text-align: center;
+	padding: 3rem 0 0;
+	overflow: hidden;
+
+	.art--disco-ball {
+		width: auto;
+		height: 7rem;
+		margin: 0 auto 1.5rem;
+	}
+
+	h1 {
+		max-width: 16ch;
+		margin: 0 auto;
+	}
+
+	.hero-date {
+		font-family: $body;
+		font-size: 0.85rem;
+		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		margin-top: 1.75rem;
+	}
+}
+
+// The supplied stationery illustration, bleeding off the bottom.
+.hero-art {
+	margin: 2rem auto -1px;
+	max-width: 60rem;
+	width: 100%;
+
+	img { width: 100%; }
+}
+
+// --- Cards (home navigation tiles) ---------------------------
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	gap: 1.5rem;
+
+	@media (max-width: $bp-sm) { grid-template-columns: 1fr; }
+}
+
+.card {
+	position: relative;
+	background: $surface;
+	border: 1px solid $hairline;
+	border-radius: 2px;
+	padding: 2.25rem 1.75rem 2rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: background 0.15s ease, transform 0.15s ease;
+
+	.art {
+		width: 100%;
+		height: 4.75rem;
+		margin-bottom: 1.25rem;
+	}
+
+	h3 { margin-bottom: 0.4rem; }
+
+	p {
+		font-size: 0.95rem;
+		max-width: 26ch;
+	}
+
+	&:hover, &:focus-within {
+		background: $wash;
+		transform: translateY(-2px);
+	}
+
+	// The heading link covers the whole card.
+	a {
+		border: 0;
+
+		&::after {
+			content: '';
+			position: absolute;
+			inset: 0;
+		}
+	}
+}
+
+// --- Feature rows (What to expect) ---------------------------
+
+.feature {
+	display: grid;
+	grid-template-columns: 8rem 1fr;
+	gap: 2.5rem;
+	align-items: start;
+	max-width: 44rem;
+	margin: 0 auto 3.5rem;   // stay centred on wide screens
+
+	&:last-child { margin-bottom: 0; }
+
+	.art { width: 100%; height: 7rem; }
+
+	@media (max-width: $bp-sm) {
+		grid-template-columns: 1fr;
+		gap: 1.25rem;
+		text-align: center;
+		justify-items: center;
+
+		.art { width: 6rem; height: 6rem; }
+	}
+}
+
+.feature-body {
+	max-width: $measure;
+
+	h3 { margin-bottom: 0.35rem; }
+}
+
+// --- Timeline (Schedule) -------------------------------------
+
+.timeline {
+	max-width: 44rem;
+	margin: 0 auto;
+	position: relative;
+
+	// The hairline running down the day.
+	&::before {
+		content: '';
+		position: absolute;
+		left: 4rem;
+		top: 1rem;
+		bottom: 1rem;
+		border-left: 1px solid $hairline-soft;
+
+		@media (max-width: $bp-sm) { display: none; }
+	}
+}
+
+.moment {
+	position: relative;
+	display: grid;
+	grid-template-columns: 8rem 1fr;
+	gap: 2.5rem;
+	align-items: center;
+	margin-bottom: 3rem;
+
+	&:last-child { margin-bottom: 0; }
+
+	.art {
+		width: 100%;
+		height: 7rem;
+		background: $cream;   // masks the hairline behind the motif
+		padding: 0.5rem 0;
+	}
+
+	@media (max-width: $bp-sm) {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+		text-align: center;
+		justify-items: center;
+
+		.art { width: 5.5rem; height: 6rem; }
+	}
+}
+
+.moment-time {
+	font-family: $display;
+	font-size: 1.5rem;
+	line-height: 1;
+	margin-bottom: 0.15rem;
+}
+
+.moment-body {
+	max-width: $measure;
+
+	h3 { margin-bottom: 0.3rem; }
+	p { font-size: 0.98rem; }
+}
+
+// --- Venue: the one page that keeps photography --------------
+
+.photo {
+	margin: 2.5rem 0;
+
+	img {
+		width: 100%;
+		border: 1px solid $hairline-soft;
+		border-radius: 2px;
+	}
+
+	figcaption {
+		font-size: 0.85rem;
+		margin-top: 0.6rem;
+		opacity: 0.75;
+	}
+
+	// The exterior shot leads the venue page.
+	&--lead img { aspect-ratio: 16 / 9; object-fit: cover; }
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+	margin: 2.5rem 0;
+
+	img {
+		width: 100%;
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+		border: 1px solid $hairline-soft;
+		border-radius: 2px;
+	}
+
+	// An odd one out spans the full width rather than leaving a hole.
+	img:last-child:nth-child(odd) { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+
+	@media (max-width: $bp-sm) {
+		grid-template-columns: 1fr;
+		img:last-child:nth-child(odd) { aspect-ratio: 4 / 3; }
+	}
+}
+
+.info-card {
+	background: $surface;
+	border: 1px solid $hairline;
+	border-radius: 2px;
+	padding: 1.75rem;
+	margin: 2rem 0;
+
+	address {
+		font-style: normal;
+		line-height: 1.55;
+	}
+
+	iframe {
+		display: block;
+		width: 100%;
+		height: 380px;
+		border: 0;
+		border-radius: 2px;
+		margin-top: 1.25rem;
+	}
+}
+
+// --- FAQ -----------------------------------------------------
+
+.faq {
+	max-width: $measure;
+	margin-inline: auto;
+
+	h3 { margin-bottom: 0.35rem; }
+	> * + h3 { margin-top: 2.5rem; }
+}
+
+// --- Page header (interior pages) ----------------------------
+
+.page-head {
+	text-align: center;
+	padding: 3.5rem 0 0;
+
+	.art {
+		width: auto;
+		height: 5rem;
+		margin: 0 auto 1.25rem;
+	}
+
+	p {
+		font-family: $body;
+		font-size: 0.85rem;
+		font-weight: 600;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		margin-top: 0.9rem;
+		opacity: 0.75;
+	}
+}
+
+// --- Buttons -------------------------------------------------
+
+.button {
+	display: inline-block;
+	font-family: $body;
+	font-size: 0.9rem;
+	font-weight: 600;
+	line-height: 1;
+	padding: 0.95rem 1.6rem;
+	border: 1.5px solid $ink;
+	border-radius: 2px;
+	background: transparent;
+	transition: background 0.15s ease, color 0.15s ease;
+
+	&:hover, &:focus-visible {
+		background: $ink;
+		color: $cream;
+		border-color: $ink;
+	}
+}
+
+// --- Footer --------------------------------------------------
+
+.site-footer {
+	border-top: 1px solid $hairline-soft;
+	padding: 3rem 0;
+	text-align: center;
+
+	.art--heart {
+		width: 1.35rem;
+		height: 1.35rem;
+		margin: 0 auto 0.9rem;
+	}
+
+	p {
+		font-size: 0.85rem;
+		opacity: 0.75;
+	}
+}

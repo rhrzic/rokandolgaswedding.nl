@@ -1,9 +1,14 @@
 <head>
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{% if page.title and page.layout != "home" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}" />
+
+	<link rel="icon" href="{{ "assets/images/favicon.svg" | relative_url }}" type="image/svg+xml" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Karla:ital,wght@0,400;0,600;1,400&display=swap" />
+
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
 </head>

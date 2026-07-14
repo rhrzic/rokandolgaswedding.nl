@@ -1,13 +1,10 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, welcome to our wedding website'
-description: null
-image: null
-author: null
-show_tile: false
+landing-title: "Welcome to Rok and Olga's wedding!"
+nav-menu: false
 ---
 
-<!-- Bottom of the index page-->
-**Please RSVP by DATE**
+**Please RSVP by DATE.**
+
 RSVP link
