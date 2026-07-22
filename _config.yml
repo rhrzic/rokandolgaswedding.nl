@@ -13,10 +13,7 @@ sass:
   style: compressed
 
 exclude:
-- "*.gemspec"
-- LICENSE.md
 - CONTRIBUTING.md
 - README.md
-- DESIGN_PLAN.md
 - Gemfile
 - Gemfile.lock
