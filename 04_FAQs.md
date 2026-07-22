@@ -12,7 +12,7 @@ permalink: /faq/
 
 ### When should I arrive?
 
-Doors open at 16:00 and there's no need to arrive on the dot: come any time between 16:00 and 18:00, with most guests expected around 17:00. Do be there for dinner at 18:00. Note that the ceremony takes place later in the evening, after dinner. The full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
+Specific starting time will be confirmed soon. Note that the ceremony takes place later in the evening, after dinner. The full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
 
 ### Where exactly do I need to go?
 

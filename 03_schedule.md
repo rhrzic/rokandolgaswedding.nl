@@ -16,7 +16,7 @@ permalink: /schedule/
 				<div class="moment-body">
 					<p class="moment-time">from 16:00</p>
 					<h3>Welcome</h3>
-					<p>Doors open and the day begins with drinks and conversation. There’s no need to arrive on the dot: come any time between 16:00 and 18:00. Most guests are expected around 17:00.</p>
+					<p>Doors open and the day begins with drinks and conversation. Specific starting time will be confirmed soon.</p>
 				</div>
 			</div>
 
