@@ -28,7 +28,7 @@ permalink: /vibe/
 			{% include art.html name="camera" %}
 			<div class="feature-body">
 				<h3>Photos &amp; phones</h3>
-				<p>We’d love for you to be present with us during the day. Whether and when photos are welcome will be shared closer to the wedding — thank you in advance for being thoughtful about this.</p>
+				<p>We’d love for you to take photos and capture memories. We’ll let you know if there are any moments where we’d prefer phones away.</p>
 			</div>
 		</div>
 
@@ -36,7 +36,7 @@ permalink: /vibe/
 			{% include art.html name="envelope" %}
 			<div class="feature-body">
 				<h3>Other practicalities</h3>
-				<p>We’ll include all practical details — children, plus-ones, accessibility, timing, and travel — on the <a href="{{ "/faq/" | relative_url }}">FAQ page</a> once everything is finalised. If something is important to you and you don’t see it mentioned yet, feel free to reach out.</p>
+				<p>Children, plus-ones, accessibility, parking, accommodation and gifts are all covered on the <a href="{{ "/faq/" | relative_url }}">FAQ page</a>. If something is important to you and you don’t see it there, feel free to reach out.</p>
 			</div>
 		</div>
 	</div>

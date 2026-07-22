@@ -436,13 +436,24 @@ section { padding: 4.5rem 0; }
 }
 
 // --- FAQ -----------------------------------------------------
+// Questions are h3, grouped under h2 section headings. The layout renders this
+// inside .prose, so these rules refine that rather than replace it.
 
 .faq {
-	max-width: $measure;
-	margin-inline: auto;
+	h2 {
+		text-align: center;
+		margin: 0 0 2rem;
+	}
 
-	h3 { margin-bottom: 0.35rem; }
-	> * + h3 { margin-top: 2.5rem; }
+	h3 {
+		margin: 2.25rem 0 0.4rem;
+		&:first-of-type { margin-top: 0; }
+	}
+
+	// A question directly after a group heading shouldn't double up the gap.
+	h2 + h3 { margin-top: 0; }
+
+	.divider + h2 { margin-top: 0; }
 }
 
 // --- Page header (interior pages) ----------------------------

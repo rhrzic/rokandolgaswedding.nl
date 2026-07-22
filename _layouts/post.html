@@ -12,7 +12,7 @@ layout: default
 
 <section>
 	<div class="wrap">
-		<div class="prose{% if page.wide %} prose--wide{% endif %}">
+		<div class="prose{% if page.wide %} prose--wide{% endif %}{% if page.prose-class %} {{ page.prose-class }}{% endif %}">
 			{{ content }}
 		</div>
 	</div>
