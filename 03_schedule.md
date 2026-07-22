@@ -34,7 +34,7 @@ permalink: /schedule/
 				<div class="moment-body">
 					<p class="moment-time">~18:30</p>
 					<h3>Dinner</h3>
-					<p>Dinner will follow later in the evening. Dietary preferences can be shared via the RSVP form.</p>
+					<p>Dinner will follow later in the evening. Dietary requirements can be shared when you RSVP, and more details about the menu will be available closer to the wedding date.</p>
 				</div>
 			</div>
 

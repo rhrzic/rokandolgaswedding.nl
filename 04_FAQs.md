@@ -24,7 +24,7 @@ Yes. Parking is available nearby at P&R Maastricht Noord, which is within easy w
 
 ### Where should I stay?
 
-If you're travelling in for the wedding, please let us know in the RSVP form.
+If you're travelling in for the wedding, please mention it in your RSVP email.
 
 We've reserved a block of rooms at a nearby hotel. Details on availability and booking will be shared with guests who indicate they need accommodation.
 
@@ -42,7 +42,7 @@ We love your children, but this will be an adults-only celebration. We hope this
 
 ### Can I update my RSVP later?
 
-Yes. If you need to change your response after submitting the form, please contact us directly, and we'll take care of it.
+Yes. If you need to change your response after sending it, just email us again and we'll take care of it.
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
@@ -54,7 +54,7 @@ Suits and ties required for men. Women are invited to wear midi or ankle-length 
 
 ### Will food and drinks be provided?
 
-Yes. Food and drinks will be provided throughout the celebration. If you have dietary requirements or allergies, please let us know when you RSVP.
+Yes. Food and drinks will be provided throughout the celebration. If you have dietary requirements or allergies, please let us know when you RSVP. More details about the menu will be available closer to the wedding date.
 
 ### Can I take photos?
 
