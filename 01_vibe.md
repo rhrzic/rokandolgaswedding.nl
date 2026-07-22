@@ -36,7 +36,7 @@ permalink: /vibe/
 			{% include art.html name="envelope" %}
 			<div class="feature-body">
 				<h3>Other practicalities</h3>
-				<p>Children, plus-ones, accessibility, parking, accommodation and gifts are all covered on the <a href="{{ "/faq/" | relative_url }}">FAQ page</a>. If something is important to you and you don’t see it there, feel free to reach out.</p>
+				<p>Plus-ones, parking, accommodation, accessibility and gifts are all covered on the <a href="{{ "/faq/" | relative_url }}">FAQ page</a>. If something is important to you and you don’t see it there, feel free to reach out.</p>
 			</div>
 		</div>
 	</div>
