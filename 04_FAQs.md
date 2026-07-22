@@ -12,7 +12,7 @@ permalink: /faq/
 
 ### When should I arrive?
 
-Doors open at 16:00 and there's no need to arrive on the dot — come any time between 16:00 and 18:00, with most guests expected around 17:00. Do be there for dinner at 18:00. Note that the ceremony takes place later in the evening, after dinner — the full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
+Doors open at 16:00 and there's no need to arrive on the dot: come any time between 16:00 and 18:00, with most guests expected around 17:00. Do be there for dinner at 18:00. Note that the ceremony takes place later in the evening, after dinner. The full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
 
 ### Where exactly do I need to go?
 
@@ -58,7 +58,7 @@ Yes. Food and drinks will be provided throughout the celebration. If you have di
 
 ### Can I take photos?
 
-We'll have disposable cameras out on the day, and we'd love for you to use them. We'd prefer that phones stay away during the celebration — we'd much rather have you with us than behind a screen.
+We'll have disposable cameras out on the day, and we'd love for you to use them. We'd prefer that phones stay away during the celebration. We'd much rather have you with us than behind a screen.
 
 ### Is the venue accessible?
 
@@ -82,6 +82,6 @@ If you would like to mark the occasion with something extra, we're planning a ho
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
-## I still have a question — who should I contact?
+## I still have a question. Who should I contact?
 
 If you can't find the answer you're looking for, please reach out to us at [{{ site.email }}](mailto:{{ site.email }}).

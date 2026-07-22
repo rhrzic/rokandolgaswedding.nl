@@ -16,7 +16,7 @@ permalink: /schedule/
 				<div class="moment-body">
 					<p class="moment-time">from 16:00</p>
 					<h3>Welcome</h3>
-					<p>Doors open and the day begins with drinks and conversation. There’s no need to arrive on the dot — come any time between 16:00 and 18:00. Most guests are expected around 17:00.</p>
+					<p>Doors open and the day begins with drinks and conversation. There’s no need to arrive on the dot: come any time between 16:00 and 18:00. Most guests are expected around 17:00.</p>
 				</div>
 			</div>
 
@@ -34,7 +34,7 @@ permalink: /schedule/
 				<div class="moment-body">
 					<p class="moment-time">20:00</p>
 					<h3>Ceremony</h3>
-					<p>After dinner, we’ll gather for the ceremony — the heart of the evening.</p>
+					<p>After dinner, we’ll gather for the ceremony, the heart of the evening.</p>
 				</div>
 			</div>
 
