@@ -1,0 +1,18 @@
+<svg class="art art--coupe" viewBox="0 0 140 180" fill="none" stroke="currentColor"
+     stroke-linecap="round" stroke-linejoin="round"
+     role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <!-- bowl: overshoot the rim on both sides, the way a marker does -->
+  <path stroke-width="3.6" d="M22.8 61.2c2.8 23.8 22.6 40.4 47.4 39.8 24.2-.6 42.8-17.4 44.6-40.6"/>
+  <path stroke-width="3.4" d="M20.4 60.4c14.6-3.2 30-4.8 46.2-4.9 17.2-.1 33.6 1.4 49.4 4.5"/>
+  <!-- liquid -->
+  <path stroke-width="2.6" d="M30.2 73.6c12.4-2 25-2.9 37.8-2.7 12.2.2 24.4 1.3 36.4 3.3"/>
+  <!-- stem, slightly off-vertical -->
+  <path stroke-width="3.6" d="M69.6 100.8c-1.4 13-1.8 26-1.2 39"/>
+  <!-- foot -->
+  <path stroke-width="3.6" d="M44.8 144.2c8.2-2.6 16.6-3.9 25.2-4 8.8-.1 17.4 1.2 25.8 3.8"/>
+  <path stroke-width="2.8" d="M47.2 143.2c6.8 4.2 14.4 6.2 22.6 6.1 8.2-.1 15.8-2.2 22.6-6.3"/>
+  <!-- bubbles -->
+  <path stroke-width="2.6" d="M55.4 84.2c2.4-.6 4.2 1 4 3.4-.2 2.2-2 3.5-4 3-1.9-.5-2.9-2.3-2.2-4.1.4-1.2 1.2-2 2.2-2.3z"/>
+  <path stroke-width="2.4" d="M80.4 79.4c2-.5 3.5.9 3.3 2.9-.2 1.8-1.6 2.9-3.3 2.6-1.6-.3-2.6-1.8-2-3.3.3-1 1-1.9 2-2.2z"/>
+  <path stroke-width="2.2" d="M68 91c1.5-.3 2.7.8 2.4 2.4-.2 1.4-1.4 2.2-2.6 1.9-1.3-.3-1.9-1.6-1.4-2.7.3-.8.9-1.4 1.6-1.6z"/>
+</svg>

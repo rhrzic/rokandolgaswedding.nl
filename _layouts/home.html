@@ -1,55 +1,33 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
+<section class="hero">
+	<div class="wrap">
+		{% include art.html name="disco-ball" %}
+		<h1>{{ page.landing-title }}</h1>
+		<p class="hero-date">{{ site.description }}</p>
+	</div>
+	<div class="hero-art">
+		<img src="{{ "assets/images/dessert-table.svg" | relative_url }}" alt="" />
+	</div>
+</section>
 
-<body>
+<section class="rsvp">
+	<div class="wrap">
+		<div class="prose">
+			<h2>RSVP</h2>
+			{{ content }}
+		</div>
+	</div>
+</section>
 
-    {% include header.html %}
+<div class="wrap">
+	<div class="divider">{% include art.html name="sparkle" %}</div>
+</div>
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <!--<ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>-->
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
-
-      <!-- Two -->
-      <section id="two">
-          <div class="inner">
-              <header class="major">
-                  <h2>RSPV</h2>
-              </header>
-              <p>{{ content }}</p>
-              <!--<ul class="actions">
-                  <li><a href="landing.html" class="button next">Get Started</a></li>
-              </ul>-->
-          </div>
-      </section>
-
-        <!-- One -->
-        {% include tiles.html %}
-
-    </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>
+<section class="tiles">
+	<div class="wrap">
+		{% include tiles.html %}
+	</div>
+</section>

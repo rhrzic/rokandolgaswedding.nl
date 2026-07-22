@@ -1,13 +1,10 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, welcome to our wedding website'
-description: null
-image: null
-author: null
-show_tile: false
+landing-title: "Welcome to Rok and Olga's wedding!"
+nav-menu: false
 ---
 
-<!-- Bottom of the index page-->
-**Please RSVP by DATE**
-RSVP link
+**Please RSVP by email to [{{ site.email }}](mailto:{{ site.email }}?subject=RSVP) as soon as possible but no later than 12 September 2026.**
+
+Let us know who is coming, and tell us about any dietary requirements or allergies at the same time. More details about the menu will be available closer to the wedding date.

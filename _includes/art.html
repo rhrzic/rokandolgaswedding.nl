@@ -1,0 +1,19 @@
+{%- comment -%}
+Renders one line-art motif inline, so it inherits `currentColor`.
+Usage: {% include art.html name="disco-ball" %}
+
+disco-ball, cutlery, rings and sparkle are traced from the couple's own drawings.
+The rest are drawn to match.
+{%- endcomment -%}
+{%- assign n = include.name -%}
+{%- if n == "disco-ball" -%}{% include art/disco-ball.svg %}
+{%- elsif n == "cutlery" -%}{% include art/cutlery.svg %}
+{%- elsif n == "rings" -%}{% include art/rings.svg %}
+{%- elsif n == "sparkle" -%}{% include art/sparkle.svg %}
+{%- elsif n == "coupe" -%}{% include art/coupe.svg %}
+{%- elsif n == "hanger" -%}{% include art/hanger.svg %}
+{%- elsif n == "camera" -%}{% include art/camera.svg %}
+{%- elsif n == "venue" -%}{% include art/venue.svg %}
+{%- elsif n == "envelope" -%}{% include art/envelope.svg %}
+{%- elsif n == "heart" -%}{% include art/heart.svg %}
+{%- endif -%}
