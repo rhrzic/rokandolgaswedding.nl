@@ -28,7 +28,7 @@ permalink: /vibe/
 			{% include art.html name="camera" %}
 			<div class="feature-body">
 				<h3>Photos &amp; phones</h3>
-				<p>We’d love for you to take photos and capture memories. We’ll let you know if there are any moments where we’d prefer phones away.</p>
+				<p>We’ll have disposable cameras out on the day, and we’d love for you to use them. We’d prefer that phones stay away during the celebration — we’d much rather have you with us than behind a screen.</p>
 			</div>
 		</div>
 

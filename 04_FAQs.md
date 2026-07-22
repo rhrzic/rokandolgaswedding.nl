@@ -38,7 +38,7 @@ Plus-ones are included where they are named on the invitation. If you're unsure 
 
 ### Are children welcome?
 
-We love your children, but this will be an adults-only celebration. We hope this allows everyone — parents included — to relax and enjoy the day fully.
+This will be an adults-only celebration. We hope this allows everyone, parents included, to relax and enjoy the day fully.
 
 ### Can I update my RSVP later?
 
@@ -58,7 +58,7 @@ Yes. Food and drinks will be provided throughout the celebration. If you have di
 
 ### Can I take photos?
 
-We'd love for you to take photos and capture memories. We'll let you know if there are any moments where we'd prefer phones away.
+We'll have disposable cameras out on the day, and we'd love for you to use them. We'd prefer that phones stay away during the celebration — we'd much rather have you with us than behind a screen.
 
 ### Is the venue accessible?
 
