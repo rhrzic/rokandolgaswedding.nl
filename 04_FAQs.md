@@ -12,7 +12,7 @@ permalink: /faq/
 
 ### When should I arrive?
 
-Please plan to arrive 10–15 minutes before the ceremony start time. Exact timing will be shared on the [Schedule page]({{ "/schedule/" | relative_url }}) closer to the day.
+The day begins with a welcome at 16:00, so please plan to arrive 10–15 minutes before that. Note that the ceremony takes place later in the evening, after dinner — the full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
 
 ### Where exactly do I need to go?
 
@@ -70,7 +70,7 @@ We're planning for the ceremony to take place mostly indoors, so the weather sho
 
 ### How late will the celebration go?
 
-We plan to celebrate into the evening. End times and any transport information will be shared closer to the day.
+We plan to celebrate into the night. End times and any transport information will be shared closer to the day.
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 

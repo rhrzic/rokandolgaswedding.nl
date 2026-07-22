@@ -12,38 +12,38 @@ permalink: /schedule/
 		<div class="timeline">
 
 			<div class="moment">
-				{% include art.html name="rings" %}
-				<div class="moment-body">
-					<p class="moment-time">~15:00</p>
-					<h3>Ceremony</h3>
-					<p>The ceremony will begin at approximately 15:00. Please plan to arrive a little earlier so we can start on time.</p>
-				</div>
-			</div>
-
-			<div class="moment">
 				{% include art.html name="coupe" %}
 				<div class="moment-body">
-					<p class="moment-time">~16:00</p>
-					<h3>Reception</h3>
-					<p>After the ceremony, we’ll move straight into drinks and conversation.</p>
+					<p class="moment-time">16:00</p>
+					<h3>Welcome</h3>
+					<p>Doors open and the day begins with drinks and conversation. Please plan to arrive a little before 16:00 so we can all start together.</p>
 				</div>
 			</div>
 
 			<div class="moment">
 				{% include art.html name="cutlery" %}
 				<div class="moment-body">
-					<p class="moment-time">~18:30</p>
+					<p class="moment-time">18:00</p>
 					<h3>Dinner</h3>
-					<p>Dinner will follow later in the evening. Dietary requirements can be shared when you RSVP, and more details about the menu will be available closer to the wedding date.</p>
+					<p>We’ll sit down to eat together. Dietary requirements can be shared when you RSVP, and more details about the menu will be available closer to the wedding date.</p>
+				</div>
+			</div>
+
+			<div class="moment">
+				{% include art.html name="rings" %}
+				<div class="moment-body">
+					<p class="moment-time">20:00</p>
+					<h3>Ceremony</h3>
+					<p>After dinner, we’ll gather for the ceremony — the heart of the evening.</p>
 				</div>
 			</div>
 
 			<div class="moment">
 				{% include art.html name="disco-ball" %}
 				<div class="moment-body">
-					<p class="moment-time">~21:00</p>
-					<h3>Party</h3>
-					<p>Once dinner is done, we’ll clear the tables and turn up the music. The party goes on into the night.</p>
+					<p class="moment-time">21:00</p>
+					<h3>Celebration</h3>
+					<p>Once we’re married, we’ll clear the floor and turn up the music. The celebration goes on into the night.</p>
 				</div>
 			</div>
 
