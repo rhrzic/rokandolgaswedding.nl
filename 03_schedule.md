@@ -14,9 +14,9 @@ permalink: /schedule/
 			<div class="moment">
 				{% include art.html name="coupe" %}
 				<div class="moment-body">
-					<p class="moment-time">16:00</p>
+					<p class="moment-time">from 16:00</p>
 					<h3>Welcome</h3>
-					<p>Doors open and the day begins with drinks and conversation. Please plan to arrive a little before 16:00 so we can all start together.</p>
+					<p>Doors open and the day begins with drinks and conversation. There’s no need to arrive on the dot — come any time between 16:00 and 18:00. Most guests are expected around 17:00.</p>
 				</div>
 			</div>
 

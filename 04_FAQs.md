@@ -12,7 +12,7 @@ permalink: /faq/
 
 ### When should I arrive?
 
-The day begins with a welcome at 16:00, so please plan to arrive 10–15 minutes before that. Note that the ceremony takes place later in the evening, after dinner — the full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
+Doors open at 16:00 and there's no need to arrive on the dot — come any time between 16:00 and 18:00, with most guests expected around 17:00. Do be there for dinner at 18:00. Note that the ceremony takes place later in the evening, after dinner — the full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
 
 ### Where exactly do I need to go?
 
