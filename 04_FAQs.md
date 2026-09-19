@@ -12,7 +12,7 @@ permalink: /faq/
 
 ### When should I arrive?
 
-Specific starting time will be confirmed soon. Note that the ceremony takes place later in the evening, after dinner. The full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
+The doors will open at 16:00. Note that the ceremony takes place later in the evening, after dinner. The full running order is on the [Schedule page]({{ "/schedule/" | relative_url }}).
 
 ### Where exactly do I need to go?
 
@@ -24,9 +24,7 @@ Yes. Parking is available nearby at P&R Maastricht Noord, which is within easy w
 
 ### Where should I stay?
 
-If you're travelling in for the wedding, please mention it in your RSVP email.
-
-We've reserved a block of rooms at a nearby hotel. Details on availability and booking will be shared with guests who indicate they need accommodation.
+There are two nearby hotels: [Garner Hotel Maastricht](https://maps.app.goo.gl/MToPoQGMA1XpgUUs8) and [Vaeshartelt Maastricht](https://maps.app.goo.gl/pkDXVkRZ5stPyzLA9).
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
@@ -42,7 +40,7 @@ This will be an adults-only celebration. We hope this allows everyone, parents i
 
 ### Can I update my RSVP later?
 
-Yes. If you need to change your response after sending it, just email us again and we'll take care of it.
+If you can no longer attend the wedding, please let Mandy, our master of ceremonies, know as soon as possible. You can contact her at [hello@fblsweddings.com](mailto:hello@fblsweddings.com).
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
@@ -54,7 +52,7 @@ Suits and ties required for men. Women are invited to wear midi or ankle-length 
 
 ### Will food and drinks be provided?
 
-Yes. Food and drinks will be provided throughout the celebration. If you have dietary requirements or allergies, please let us know when you RSVP. More details about the menu will be available closer to the wedding date.
+Yes. Food and drinks will be provided throughout the celebration. We received your dietary requirements and will take them into account. More details about the menu will be available closer to the wedding date.
 
 ### Can I take photos?
 
@@ -66,11 +64,15 @@ Yes. The venue is wheelchair accessible and has accessible restroom facilities. 
 
 ### What if the weather is bad?
 
-We're planning for the ceremony to take place mostly indoors, so the weather shouldn't be an obstacle. If anything changes, we'll make sure everyone is informed in good time.
+We're planning for the ceremony to take place mostly indoors, so weather shouldn't be an obstacle. 
+
+### Can I contribute to the ceremony?
+
+Please reach out to Mandy, our master of ceremonies, at [hello@fblsweddings.com](mailto:hello@fblsweddings.com).
 
 ### How late will the celebration go?
 
-We plan to celebrate into the night. End times and any transport information will be shared closer to the day.
+We plan to celebrate until about 01:00. A shuttle will be provided for those staying at Vaeshartelt.
 
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
@@ -80,8 +82,12 @@ Your presence really is the most important gift to us.
 
 If you would like to mark the occasion with something extra, we're planning a honeymoon and have set up a honeymoon fund. Contributions of any size are deeply appreciated. More details will be shared soon.
 
+If you do wish to present us with a physical gift, we will gladly accept a Christmas ornament. Last year, our feline criminal destroyed the collection we had built. As this had a lot of sentimental value, we like the idea of restarting that collection with you. 
+
+Mark and Cara: we have enough mugs.
+
 <div class="divider">{% include art.html name="sparkle" %}</div>
 
 ## I still have a question. Who should I contact?
 
-If you can't find the answer you're looking for, please reach out to us at [{{ site.email }}](mailto:{{ site.email }}).
+If you can't find the answer you're looking for, please reach out to Mandy at [hello@fblsweddings.com](mailto:hello@fblsweddings.com).
